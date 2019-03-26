@@ -25,6 +25,7 @@ class MasterViewController: UITableViewController {
                 controller.image = imageArray[indexPath.row]
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
+                
             }
        }
     }
